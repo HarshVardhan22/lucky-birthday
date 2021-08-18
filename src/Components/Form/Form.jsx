@@ -52,13 +52,13 @@ const Form = () => {
 
           {result !== "" && result && (
             <div className={styles.container}>
-              <img src="https://media.giphy.com/media/3oz9ZE2Oo9zRC/giphy.gif" />
+              <img src="https://media.giphy.com/media/3oz9ZE2Oo9zRC/giphy.gif" alt="gif_PASS"/>
               <h2>Your Birthday is Lucky!!</h2>
             </div>
           )}
           {result === false && (
             <div className={styles.container}>
-            <img src="https://media.giphy.com/media/7VHV66bRjGRSo/giphy.gif" />
+            <img src="https://media.giphy.com/media/7VHV66bRjGRSo/giphy.gif" alt="gif_FAIL" />
             <h2>Sorry!! Your Birthday isn't Lucky</h2>
             </div>
             
