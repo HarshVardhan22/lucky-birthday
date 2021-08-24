@@ -1,3 +1,9 @@
+# checkout this app : https://lucky-date.netlify.app/
+
+This App checks whether your birthdate is lucky or not
+It does so by asking you your bDay and your lucky number
+if the sum of number is divisible by this lucky number then your bDay is lucky
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
